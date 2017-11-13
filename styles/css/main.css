@@ -1,4 +1,54 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 1, ../sass/sections/_header.scss */
+.container {
+  max-width: 1165px;
+}
+
+/* line 5, ../sass/sections/_header.scss */
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+/* line 11, ../sass/sections/_header.scss */
+.header {
+  color: #31353e;
+  background-color: #fff;
+}
+/* line 15, ../sass/sections/_header.scss */
+.header .logo {
+  font-family: "Roboto Slab", serif;
+}
+/* line 18, ../sass/sections/_header.scss */
+.header .logo a {
+  color: #31353e;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+}
+/* line 25, ../sass/sections/_header.scss */
+.header .logo p {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.96px;
+  color: #dd4b2b;
+}
+
+/* line 34, ../sass/sections/_header.scss */
+.navbar {
+  padding: 25px 0;
+}
+/* line 37, ../sass/sections/_header.scss */
+.navbar-nav {
+  flex-direction: row;
+}
+
+/* line 42, ../sass/sections/_header.scss */
+.nav-link {
+  margin-left: 2em;
+  font-size: 18px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  line-height: 24px;
+  color: #31353e;
+}

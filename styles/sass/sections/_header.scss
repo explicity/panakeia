@@ -1,0 +1,49 @@
+.container {
+    max-width: 1165px;
+}
+
+body {
+    font-family: $font-txt;
+    font-weight: $font-light;
+    font-size: 15px;
+}
+
+.header {
+    color: $txt-color;
+    background-color: $color-white;
+
+    & .logo {
+        font-family: $font-header;
+        
+        a {
+            color: $txt-color;
+            font-size: 36px;
+            font-weight: $font-bold;
+            line-height: 36px;
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: $font-normal;
+            letter-spacing: 0.96px;
+            color: $color-header;
+        }
+    }
+}
+
+.navbar {
+    padding: 25px 0;
+
+    &-nav {
+        flex-direction: row;
+    }
+}
+
+.nav-link {
+    margin-left: 2em;
+    font-size: 18px;
+    font-family: $font-header;
+    font-weight: $font-normal;
+    line-height: 24px;
+    color: $txt-color;
+}
