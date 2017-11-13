@@ -1,0 +1,31 @@
+.welcome-section {
+    position: relative;
+    min-height: 100vh;
+    margin-top: 125px; 
+    background: url('../../img/bg-img.png') no-repeat center center;
+    background-size: cover;
+    color: $color-white;
+}
+
+.cover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-heading {
+    font-family: $font-header;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    line-height: 48px;
+    
+    h2 {
+        font-size: 72px;
+        font-weight: $font-light;
+    }
+
+    p {
+        font-size: 30px;
+        font-weight: $font-bold;
+    }
+}

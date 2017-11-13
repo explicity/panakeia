@@ -12,21 +12,22 @@ body {
 
 /* line 11, ../sass/sections/_header.scss */
 .header {
+  height: 125px;
   color: #31353e;
   background-color: #fff;
 }
-/* line 15, ../sass/sections/_header.scss */
+/* line 16, ../sass/sections/_header.scss */
 .header .logo {
   font-family: "Roboto Slab", serif;
 }
-/* line 18, ../sass/sections/_header.scss */
+/* line 19, ../sass/sections/_header.scss */
 .header .logo a {
   color: #31353e;
   font-size: 36px;
   font-weight: 700;
   line-height: 36px;
 }
-/* line 25, ../sass/sections/_header.scss */
+/* line 26, ../sass/sections/_header.scss */
 .header .logo p {
   font-size: 16px;
   font-weight: 400;
@@ -34,16 +35,16 @@ body {
   color: #dd4b2b;
 }
 
-/* line 34, ../sass/sections/_header.scss */
+/* line 35, ../sass/sections/_header.scss */
 .navbar {
-  padding: 25px 0;
+  padding: 0;
 }
-/* line 37, ../sass/sections/_header.scss */
+/* line 38, ../sass/sections/_header.scss */
 .navbar-nav {
   flex-direction: row;
 }
 
-/* line 42, ../sass/sections/_header.scss */
+/* line 43, ../sass/sections/_header.scss */
 .nav-link {
   margin-left: 2em;
   font-size: 18px;
@@ -51,4 +52,39 @@ body {
   font-weight: 400;
   line-height: 24px;
   color: #31353e;
+}
+
+/* line 1, ../sass/sections/_welcome-section.scss */
+.welcome-section {
+  position: relative;
+  min-height: 100vh;
+  margin-top: 125px;
+  background: url("../../img/bg-img.png") no-repeat center center;
+  background-size: cover;
+  color: #fff;
+}
+
+/* line 10, ../sass/sections/_welcome-section.scss */
+.cover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* line 17, ../sass/sections/_welcome-section.scss */
+.main-heading {
+  font-family: "Roboto Slab", serif;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  line-height: 48px;
+}
+/* line 22, ../sass/sections/_welcome-section.scss */
+.main-heading h2 {
+  font-size: 72px;
+  font-weight: 300;
+}
+/* line 27, ../sass/sections/_welcome-section.scss */
+.main-heading p {
+  font-size: 30px;
+  font-weight: 700;
 }
