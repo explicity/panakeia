@@ -1,6 +1,7 @@
 .welcome-section {
     min-height: 100vh;
     margin-top: 125px; 
+    padding: 100px 0;
     background: url('../../img/bg-img.png') no-repeat center center;
     background-size: cover;
     color: $color-white;
@@ -9,8 +10,6 @@
     justify-content: center;
 
     & .row {
-        padding-left: 0;
-        list-style-type: none;
         margin-bottom: 50px;     
     }
 
@@ -25,10 +24,6 @@
     & .list-item {
        
         h3 {
-            font-family: $font-header;
-            font-size: 30px;
-            font-weight: $font-bold;
-            line-height: 24px;
             margin-bottom: 15px;
         }
 
@@ -37,8 +32,6 @@
         }
     }
 }
-
-
 
 .main-heading {
     font-family: $font-header;
@@ -69,4 +62,16 @@
     background-color: $color-white;
     color: $color-btn;
     border-color: $color-white;
+}
+
+.row {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.header-section {
+    font-family: $font-header;
+    font-size: 30px;
+    font-weight: $font-bold;
+    line-height: 24px;
 }

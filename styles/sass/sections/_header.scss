@@ -1,5 +1,5 @@
 .container {
-    max-width: 1165px;
+    max-width: 1195px;
 }
 
 body {
@@ -11,7 +11,7 @@ body {
 .header {
     height: 125px;
     color: $txt-color;
-    background-color: $color-white;
+    background-color: $bg-light;
 
     & .logo {
         font-family: $font-header;
