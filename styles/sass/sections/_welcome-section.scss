@@ -1,24 +1,51 @@
 .welcome-section {
-    position: relative;
     min-height: 100vh;
     margin-top: 125px; 
     background: url('../../img/bg-img.png') no-repeat center center;
     background-size: cover;
     color: $color-white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & .row {
+        padding-left: 0;
+        list-style-type: none;
+        margin-bottom: 50px;     
+    }
+
+    &-img {
+        margin-bottom: 20px; 
+    }
+
+    &-container {
+        max-width: 1100px;
+    }
+
+    & .list-item {
+       
+        h3 {
+            font-family: $font-header;
+            font-size: 30px;
+            font-weight: $font-bold;
+            line-height: 24px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            line-height: 30px;
+        }
+    }
 }
 
-.cover {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+
 
 .main-heading {
     font-family: $font-header;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
     line-height: 48px;
-    
+    margin-bottom: 80px;
+
     h2 {
         font-size: 72px;
         font-weight: $font-light;
@@ -28,4 +55,18 @@
         font-size: 30px;
         font-weight: $font-bold;
     }
+}
+
+.btn-lg {
+    font-size: 18px;
+    line-height: 30px;
+    border-radius: 27px;
+    padding: 10px 30px;
+}
+
+.btn-primary {
+    font-family: $font-btn;
+    background-color: $color-white;
+    color: $color-btn;
+    border-color: $color-white;
 }
