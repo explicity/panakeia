@@ -177,4 +177,62 @@ body {
 /* line 36, ../sass/sections/_our-news.scss */
 .list-item p {
   padding: 0 30px;
+  margin-bottom: 30px;
+}
+
+/* line 1, ../sass/sections/_newsletter.scss */
+.newsletter {
+  padding: 80px 0;
+  background: url("../../img/bg-second.png") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+/* line 10, ../sass/sections/_newsletter.scss */
+.newsletter .container {
+  max-width: 533px;
+}
+/* line 14, ../sass/sections/_newsletter.scss */
+.newsletter header {
+  margin-bottom: 30px;
+}
+/* line 17, ../sass/sections/_newsletter.scss */
+.newsletter header h3 {
+  line-height: 48px;
+}
+/* line 21, ../sass/sections/_newsletter.scss */
+.newsletter header p {
+  line-height: 24px;
+}
+
+/* line 27, ../sass/sections/_newsletter.scss */
+.input-group {
+  justify-content: center;
+}
+/* line 30, ../sass/sections/_newsletter.scss */
+.input-group button {
+  position: relative;
+  left: -10%;
+}
+
+/* line 36, ../sass/sections/_newsletter.scss */
+.form-input {
+  border-radius: 27px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+  position: relative;
+  width: 530px;
+  left: 10%;
+  padding-left: 25px;
+}
+/* line 45, ../sass/sections/_newsletter.scss */
+.form-input::placeholder {
+  color: #f3f4f6;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  font-family: "Roboto Slab", serif;
+  opacity: 0.7;
 }
