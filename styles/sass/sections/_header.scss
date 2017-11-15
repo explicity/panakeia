@@ -6,11 +6,11 @@ body {
     font-family: $font-txt;
     font-weight: $font-light;
     font-size: 15px;
+    color: $txt-color;
 }
 
 .header {
     height: 125px;
-    color: $txt-color;
     background-color: $bg-light;
 
     & .logo {

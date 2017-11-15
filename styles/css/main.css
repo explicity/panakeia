@@ -8,12 +8,12 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 15px;
+  color: #31353e;
 }
 
-/* line 11, ../sass/sections/_header.scss */
+/* line 12, ../sass/sections/_header.scss */
 .header {
   height: 125px;
-  color: #31353e;
   background-color: #edeff1;
 }
 /* line 16, ../sass/sections/_header.scss */
@@ -80,41 +80,42 @@ body {
   max-width: 1100px;
 }
 /* line 26, ../sass/sections/_welcome-section.scss */
-.welcome-section .list-item h3 {
+.welcome-section-item h3 {
   margin-bottom: 15px;
 }
 /* line 30, ../sass/sections/_welcome-section.scss */
-.welcome-section .list-item p {
+.welcome-section-item p {
+  padding: 0 15px;
   line-height: 30px;
 }
 
-/* line 36, ../sass/sections/_welcome-section.scss */
+/* line 37, ../sass/sections/_welcome-section.scss */
 .main-heading {
   font-family: "Roboto Slab", serif;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
   line-height: 48px;
   margin-bottom: 80px;
 }
-/* line 42, ../sass/sections/_welcome-section.scss */
+/* line 43, ../sass/sections/_welcome-section.scss */
 .main-heading h2 {
   font-size: 72px;
   font-weight: 300;
 }
-/* line 47, ../sass/sections/_welcome-section.scss */
+/* line 48, ../sass/sections/_welcome-section.scss */
 .main-heading p {
   font-size: 30px;
   font-weight: 700;
 }
 
-/* line 53, ../sass/sections/_welcome-section.scss */
+/* line 54, ../sass/sections/_welcome-section.scss */
 .btn-lg {
   font-size: 18px;
   line-height: 30px;
   border-radius: 27px;
-  padding: 10px 30px;
+  padding: 10px 50px;
 }
 
-/* line 60, ../sass/sections/_welcome-section.scss */
+/* line 61, ../sass/sections/_welcome-section.scss */
 .btn-primary {
   font-family: "Roboto Slab", serif;
   background-color: #fff;
@@ -122,13 +123,13 @@ body {
   border-color: #fff;
 }
 
-/* line 67, ../sass/sections/_welcome-section.scss */
+/* line 68, ../sass/sections/_welcome-section.scss */
 .row {
   padding-left: 0;
   list-style-type: none;
 }
 
-/* line 72, ../sass/sections/_welcome-section.scss */
+/* line 73, ../sass/sections/_welcome-section.scss */
 .header-section {
   font-family: "Roboto Slab", serif;
   font-size: 30px;
@@ -141,12 +142,39 @@ body {
   background-color: #edeff1;
   min-height: 100vh;
   padding: 80px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-/* line 6, ../sass/sections/_our-news.scss */
+/* line 9, ../sass/sections/_our-news.scss */
 .our-news h3 {
   margin-bottom: 80px;
 }
-/* line 10, ../sass/sections/_our-news.scss */
+/* line 13, ../sass/sections/_our-news.scss */
 .our-news-img {
   margin-bottom: 30px;
+}
+/* line 17, ../sass/sections/_our-news.scss */
+.our-news .btn-primary {
+  color: #4e5159;
+  font-family: "Roboto", sans-serif;
+}
+/* line 22, ../sass/sections/_our-news.scss */
+.our-news .btn-lg {
+  font-size: 15px;
+}
+
+/* line 27, ../sass/sections/_our-news.scss */
+.list-item {
+  line-height: 30px;
+}
+/* line 30, ../sass/sections/_our-news.scss */
+.list-item h4 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Roboto Slab", serif;
+}
+/* line 36, ../sass/sections/_our-news.scss */
+.list-item p {
+  padding: 0 30px;
 }
