@@ -51,18 +51,21 @@
     }
 }
 
-.btn-lg {
-    font-size: 18px;
-    line-height: 30px;
-    border-radius: 27px;
-    padding: 10px 50px;
-}
+.btn {
 
-.btn-primary {
-    font-family: $font-btn;
-    background-color: $color-white;
-    color: $color-btn;
-    border-color: $color-white;
+    &-lg {
+        font-size: 18px;
+        line-height: 30px;
+        border-radius: 27px;
+        padding: 10px 50px;
+    }
+
+    &-primary {
+        font-family: $font-btn;
+        background-color: $color-white;
+        color: $color-btn;
+        border-color: $color-white;
+    }
 }
 
 .row {
