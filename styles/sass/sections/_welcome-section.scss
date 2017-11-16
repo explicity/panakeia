@@ -5,9 +5,6 @@
     background: url('../../img/bg-img.png') no-repeat center center;
     background-size: cover;
     color: $color-white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
     & .row {
         margin-bottom: 50px;     
@@ -69,7 +66,6 @@
 }
 
 .row {
-    padding-left: 0;
     list-style-type: none;
 }
 
