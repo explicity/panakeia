@@ -1,0 +1,15 @@
+.footer {
+    background-color: $bg-orange;
+    padding: 60px 0;
+
+    .container {
+        max-width: 933px;
+    }
+
+    a {
+        color: $color-white;
+        font-size: 18px;
+        line-height: 36px;
+        font-weight: $font-normal;
+    }
+}

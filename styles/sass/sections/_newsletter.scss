@@ -2,10 +2,8 @@
     padding: 80px 0;
     background: url('../../img/bg-second.png') no-repeat center center;
     background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center; 
     color: $color-white;
+    z-index: 2;
 
     & .container {
         max-width: 533px;
