@@ -8,3 +8,11 @@ a {
         text-decoration: none;
     }
 }
+
+input {
+
+    &:active {
+        color: none;
+        border-color: none;
+    }
+}
